@@ -1,0 +1,14 @@
+BEGIN_PROLOG
+
+EventTiming : {
+   useDb : false
+   verbose : 0
+
+   # ns
+   TimeFromProtonsToDRMarker : 200.0
+   # clock counts
+   OffSpillEventLength : 4000
+   OnSpillBins : 5
+}
+
+END_PROLOG
